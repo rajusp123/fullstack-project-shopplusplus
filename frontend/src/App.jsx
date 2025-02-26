@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"; // ✅ Keep only one import
+import { SpeedInsights } from "@vercel/speed-insights/next"; 
 
 const App = () => {
   return (
@@ -38,7 +38,7 @@ const App = () => {
       </Routes>
 
       <Footer />
-      <SpeedInsights /> {/* ✅ Ensure it's inside <div> */}
+      <SpeedInsights /> {/* Ensure it's inside <div> */}
     </div>
   );
 };
