@@ -29,10 +29,7 @@ const Footer = () => {
             </ul>
         </div>
       </div>
-      {/* <div>
-        <hr />
-        <p className='py-5 text-sm text-center'>Copyright 2025@shopplusplus.com - All Right Reserved</p>
-      </div> */}
+      
     </div>
   )
 }
